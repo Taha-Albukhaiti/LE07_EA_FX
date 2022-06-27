@@ -36,9 +36,9 @@
                               </Label>
                            </children>
                         </HBox>
-                        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="391.0" stylesheets="@../../../java/values/style.css">
+                        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="391.0" stylesheets="@values/style.css">
                            <children>
-                              <TextField prefHeight="35.0" prefWidth="198.0" promptText="Hier Tippen ..." styleClass="transparent" stylesheets="@../../../java/values/style.css">
+                              <TextField prefHeight="35.0" prefWidth="198.0" promptText="Hier Tippen ..." styleClass="transparent" stylesheets="@values/style.css">
                                  <HBox.margin>
                                     <Insets left="20.0" />
                                  </HBox.margin>
@@ -46,7 +46,7 @@
                                     <Font name="Arial" size="18.0" />
                                  </font>
                               </TextField>
-                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" styleClass="search-button" stylesheets="@../../../java/values/style.css" text="Suchen" textFill="WHITE">
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="70.0" styleClass="search-button" stylesheets="@values/style.css" text="Suchen" textFill="WHITE">
                                  <HBox.margin>
                                     <Insets right="12.0" />
                                  </HBox.margin>
@@ -60,14 +60,14 @@
                               <Insets left="380.0" right="380.0" />
                            </VBox.margin>
                         </HBox>
-                        <VBox alignment="CENTER" prefHeight="445.0" prefWidth="1129.0" stylesheets="@../../../java/values/style.css">
+                        <VBox alignment="CENTER" prefHeight="445.0" prefWidth="1129.0" stylesheets="@values/style.css">
                            <children>
-                              <HBox alignment="CENTER" prefHeight="336.0" prefWidth="832.0" styleClass="cards" stylesheets="@../../../java/values/style.css">
+                              <HBox alignment="CENTER" prefHeight="336.0" prefWidth="832.0" styleClass="cards" stylesheets="@values/style.css">
                                  <VBox.margin>
                                     <Insets top="30.0" />
                                  </VBox.margin>
                                  <children>
-                                    <VBox prefHeight="415.0" prefWidth="243.0" styleClass="cards" stylesheets="@../../../java/values/style.css">
+                                    <VBox prefHeight="415.0" prefWidth="243.0" styleClass="cards" stylesheets="@values/style.css">
                                        <children>
                                           <HBox alignment="CENTER" prefHeight="103.0" prefWidth="272.0">
                                              <children>
@@ -85,7 +85,7 @@
                                           </HBox>
                                           <ImageView fitHeight="150.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
-                                                <Image url="@../../../java/img/coffee.jpg" />
+                                                <Image url="@img/coffee.jpg" />
                                              </image>
                                           </ImageView>
                                           <HBox alignment="CENTER" prefHeight="108.0" prefWidth="272.0">
@@ -102,13 +102,13 @@
                                                 </Label>
                                                 <ButtonBar buttonMinWidth="25.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="144.0">
                                                    <buttons>
-                                                      <Button fx:id="ka" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@../../../java/values/style.css" text="+" textFill="WHITE">
+                                                      <Button fx:id="ka" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@values/style.css" text="+" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
                                                          </styleClass>
                                                       </Button>
-                                                      <Button fx:id="ka1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@../../../java/values/style.css" text="-" textFill="WHITE">
+                                                      <Button fx:id="ka1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@values/style.css" text="-" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
@@ -141,7 +141,7 @@
                                           </HBox>
                                           <ImageView fitHeight="150.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
-                                                <Image url="@../../../java/img/cap.jpg" />
+                                                <Image url="@img/cap.jpg" />
                                              </image>
                                           </ImageView>
                                           <HBox alignment="CENTER" prefHeight="125.0" prefWidth="272.0">
@@ -158,13 +158,13 @@
                                                 </Label>
                                                 <ButtonBar buttonMinWidth="25.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="144.0">
                                                    <buttons>
-                                                      <Button fx:id="ca" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@../../../java/values/style.css" text="+" textFill="WHITE">
+                                                      <Button fx:id="ca" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@values/style.css" text="+" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
                                                          </styleClass>
                                                       </Button>
-                                                      <Button fx:id="ca1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@../../../java/values/style.css" text="-" textFill="WHITE">
+                                                      <Button fx:id="ca1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@values/style.css" text="-" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
@@ -200,7 +200,7 @@
                                           </HBox>
                                           <ImageView fitHeight="153.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
-                                                <Image url="@../../../java/img/ecpresso.jpg" />
+                                                <Image url="@img/ecpresso.jpg" />
                                              </image>
                                           </ImageView>
                                           <HBox alignment="CENTER" prefHeight="126.0" prefWidth="272.0">
@@ -220,13 +220,13 @@
                                                 </Label>
                                                 <ButtonBar buttonMinWidth="25.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="50.0" prefWidth="144.0">
                                                    <buttons>
-                                                      <Button fx:id="ex" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@../../../java/values/style.css" text="+" textFill="WHITE">
+                                                      <Button fx:id="ex" mnemonicParsing="false" onAction="#anzahl" prefHeight="19.0" prefWidth="60.0" stylesheets="@values/style.css" text="+" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
                                                          </styleClass>
                                                       </Button>
-                                                      <Button fx:id="ex1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@../../../java/values/style.css" text="-" textFill="WHITE">
+                                                      <Button fx:id="ex1" minWidth="30.0" mnemonicParsing="false" onAction="#anzahl" prefHeight="26.0" prefWidth="2.0" stylesheets="@values/style.css" text="-" textFill="WHITE">
                                                          <styleClass>
                                                             <String fx:value="search-button2" />
                                                             <String fx:value="shadow" />
@@ -261,7 +261,7 @@
                                           <Insets left="10.0" />
                                        </HBox.margin>
                                     </Label>
-                                    <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="257.0" stylesheets="@../../../java/values/style.css" text="Bestellen" textAlignment="CENTER" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="257.0" stylesheets="@values/style.css" text="Bestellen" textAlignment="CENTER" textFill="WHITE">
                                        <font>
                                           <Font name="Arial" size="18.0" />
                                        </font>
@@ -275,7 +275,7 @@
                                     </Button>
                                     <VBox alignment="CENTER" prefHeight="123.0" prefWidth="224.0">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="15.0" prefWidth="190.0" stylesheets="@../../../java/values/style.css" text="Admin: Konfigurieren" textFill="WHITE">
+                                          <Button mnemonicParsing="false" prefHeight="15.0" prefWidth="190.0" stylesheets="@values/style.css" text="Admin: Konfigurieren" textFill="WHITE">
                                              <VBox.margin>
                                                 <Insets bottom="10.0" />
                                              </VBox.margin>
@@ -287,7 +287,7 @@
                                                 <String fx:value="shadow" />
                                              </styleClass>
                                           </Button>
-                                          <Button mnemonicParsing="false" prefHeight="22.0" prefWidth="192.0" stylesheets="@../../../java/values/style.css" text="Beenden" textFill="WHITE">
+                                          <Button mnemonicParsing="false" prefHeight="22.0" prefWidth="192.0" stylesheets="@values/style.css" text="Beenden" textFill="WHITE">
                                              <opaqueInsets>
                                                 <Insets />
                                              </opaqueInsets>

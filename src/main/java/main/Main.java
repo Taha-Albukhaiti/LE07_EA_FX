@@ -29,7 +29,7 @@ public class Main extends Application {
 		//Haupt-View aus fxml laden
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("resources/GetraenkebestellungView.fxml"));
+			loader.setLocation(Main.class.getResource("GetraenkebestellungView.fxml"));
 			rootLayout = (AnchorPane) loader.load();
 
 			//Controller (steht in fxml) holen und mit der MainApp (this) verknuepfen
@@ -58,7 +58,7 @@ public class Main extends Application {
 		//View laden
 		try {
 			FXMLLoader loader = new FXMLLoader();
-			loader.setLocation(Main.class.getResource("resources/KonfigurationView.fxml"));
+			loader.setLocation(Main.class.getResource("KonfigurationView.fxml"));
 			AnchorPane pane = (AnchorPane) loader.load();
 
 			//Controller (steht in fxml) holen und Konfiguration-Objekt uebergeben
